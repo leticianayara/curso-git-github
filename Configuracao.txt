@@ -1,0 +1,8 @@
+Configurando o git
+git config --glogal user.name "Leticia Costa"
+git config --global user.email leticia.costa@meta.com.br //leticianayara@gmail.com
+git config --global init.default branch main
+
+
+Copie os arquivos (git.zip) para o diretorio e abra o index.html 
+
