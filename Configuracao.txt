@@ -68,4 +68,13 @@ commit (unstaged) e os arquivos posteriores continua existindo
 
 git reset --<nome do modelo> <numero do commit>
 
+//git alias
 
+git config alias.<nome que quer dar> "<comando que quer utilizar ao chamar o nome>"
+
+git config alias.log1 "log --oneline" //muda somente da minha maquina
+git config --global alias.log1 "log --oneline" //muda em todas as maquinas que estiverem usando este git
+
+quando digitar "git log1" ele vai chamar a linha de comando "log --oneline"
+
+Os alias são armazenados no .gitconfig  onde ficam as raízes (C:\Users\leticia.costa)
