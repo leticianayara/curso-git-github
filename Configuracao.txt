@@ -52,3 +52,6 @@ git restore <nome do arquivo>.<tipo do arquivo> - restaura o arquivo
 git mv <nome anterior>.<tipo do arquivo> <nome novo>.<tipo do arquivo> - muda o nome do arquivo e deixa ele pronto para ser commitado
 
 
+//Realizando um Amend na mensagem
+git commit -m "<mensagem>" --amend - altera a mensagem do ultimo commit
+
