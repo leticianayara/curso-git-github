@@ -45,3 +45,10 @@ git rm <nome do arquivo>.<tipo do arquivo> - remove o arquivo
 //restaura
 git restore --staged <nome do arquivo>.<tipo do arquivo> - restaura da parte de staged do arquivo
 git restore <nome do arquivo>.<tipo do arquivo> - restaura o arquivo 
+
+
+
+//Renomeando arquivos
+git mv <nome anterior>.<tipo do arquivo> <nome novo>.<tipo do arquivo> - muda o nome do arquivo e deixa ele pronto para ser commitado
+
+
