@@ -6,6 +6,18 @@ git config --global init.default branch main
 //Um exemplo de como pegar arquivos e colocar no git
 Copie os arquivos (git.zip) para o diretorio e abra o index.html 
 
+
+//Criando um repositório e inicializando ele
 Arraste a pasta do diretório onde fica o que vc quer que o git gerencie e digite "git init" (você esta inicializando seu repositório)
 
+
+//Adicionando o repositório (e suas depedencias) ao repositorio
+Com o "git add ." (ou o nome de um arquivo) 
+
+Enquanto seus arquivos estiverem com o status de "untracked", eles NÃO são reconhecidos pelo git e não são versionados por ele, quando ele esta versionado, ele passa a situação de "tracked"
+
+Existem dois status para um arquivo quando colocado como "tracked",  staged (pronto pra commit) e unstaged (não pronto para commit)
+
+
+//Criando o commit
 
