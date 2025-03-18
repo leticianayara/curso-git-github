@@ -88,3 +88,6 @@ git branch <nome da branch> - criando a branch
 git switch <nome da branch criada> - mudando de branch
 git merge -m "<mensagem adicionada>" <branch criada>
 
+
+//remover branch
+git branch -d <nome da branch> - remove a branch pra sempre da lista 
