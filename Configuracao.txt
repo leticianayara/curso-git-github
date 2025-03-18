@@ -59,3 +59,13 @@ git commit -m "<mensagem>" --amend - altera a mensagem do ultimo commit
 //Log Detalhado
 git log -p - mostra as alterações em detalhes do que foi feito em cada commit, pressione a tecla q ou esc e saia do log
 
+//Git reset
+Tem 3 modelos:
+	soft - faz a mudança ate o commit que deseja, altera os arquivos, mas ele fica pronto para dar o commit (staged) e as classes posteriores continua existindo 
+	mixed - faz a mudança ate o commit que deseja, altera os arquivos, mas ele NÃO fica pronto para dar o
+commit (unstaged) e os arquivos posteriores continua existindo
+	hard - faz a mudança ate o commit que deseja, altera os arquivos, ele NÃO fica pronto para o commit (unstaged) e os arquivos posteriores NÃO existem mais
+
+git reset --<nome do modelo> <numero do commit>
+
+
