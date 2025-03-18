@@ -78,3 +78,13 @@ git config --global alias.log1 "log --oneline" //muda em todas as maquinas que e
 quando digitar "git log1" ele vai chamar a linha de comando "log --oneline"
 
 Os alias são armazenados no .gitconfig  onde ficam as raízes (C:\Users\leticia.costa)
+
+
+
+//Branch
+git branch - lista todas a branchs que vc tem
+
+git branch <nome da branch> - criando a branch
+git switch <nome da branch criada> - mudando de branch
+git merge -m "<mensagem adicionada>" <branch criada>
+
