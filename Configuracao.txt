@@ -11,7 +11,7 @@ Copie os arquivos (git.zip) para o diretorio e abra o index.html
 Arraste a pasta do diretório onde fica o que vc quer que o git gerencie e digite "git init" (você esta inicializando seu repositório)
 
 
-//Adicionando o repositório (e suas depedencias) ao repositorio
+//Adicionando o repositório (e suas dependências) ao repositorio
 Com o "git add ." (ou o nome de um arquivo) 
 
 Enquanto seus arquivos estiverem com o status de "untracked", eles NÃO são reconhecidos pelo git e não são versionados por ele, quando ele esta versionado, ele passa a situação de "tracked"
@@ -20,8 +20,16 @@ Existem dois status para um arquivo quando colocado como "tracked",  staged (pro
 
 
 //Criando o commit
-Após adicionar os arquivos, dê um "git commit -m "<sua mensagem para lembrar o que vc fez>" para colocar os arquivos prontos para subir pro repositorio"
+Após adicionar os arquivos, dê um "git commit -m "<sua mensagem para lembrar o que vc fez>" " para colocar os arquivos prontos para subir pro repositório
 
 Neste passo (após dar o commit) eu já posso usar o SNAPSHOT criado pelo git para gerar versões do meu código.
 
-// 
+// git diff - mostra as diferenças em arquivo(s) do que esta no commit para o que esta na sua máquina.
+
+// os arquivos podem estar em 3 estágios: 
+		- working - estou trabalhando nele, não dei um "git add"
+		- staging - dei o "git add" mas não o "git commit"
+		- commit - dei o "git commit"
+// git log - mostra todos os commits feitos em ordem no formato de uma pilha (FILO)
+// git log --oneline - mostra todos os commits feitos em uma linha por commit (eles reduzem o numero do commit, que é em hexadecimal)
+
