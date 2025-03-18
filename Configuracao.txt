@@ -55,3 +55,7 @@ git mv <nome anterior>.<tipo do arquivo> <nome novo>.<tipo do arquivo> - muda o 
 //Realizando um Amend na mensagem
 git commit -m "<mensagem>" --amend - altera a mensagem do ultimo commit
 
+
+//Log Detalhado
+git log -p - mostra as alterações em detalhes do que foi feito em cada commit, pressione a tecla q ou esc e saia do log
+
