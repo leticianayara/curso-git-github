@@ -3,6 +3,9 @@ git config --glogal user.name "Leticia Costa"
 git config --global user.email leticia.costa@meta.com.br //leticianayara@gmail.com
 git config --global init.default branch main
 
-
+//Um exemplo de como pegar arquivos e colocar no git
 Copie os arquivos (git.zip) para o diretorio e abra o index.html 
+
+Arraste a pasta do diretório onde fica o que vc quer que o git gerencie e digite "git init" (você esta inicializando seu repositório)
+
 
