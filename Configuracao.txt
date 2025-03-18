@@ -20,4 +20,8 @@ Existem dois status para um arquivo quando colocado como "tracked",  staged (pro
 
 
 //Criando o commit
+Após adicionar os arquivos, dê um "git commit -m "<sua mensagem para lembrar o que vc fez>" para colocar os arquivos prontos para subir pro repositorio"
 
+Neste passo (após dar o commit) eu já posso usar o SNAPSHOT criado pelo git para gerar versões do meu código.
+
+// 
