@@ -33,3 +33,7 @@ Neste passo (após dar o commit) eu já posso usar o SNAPSHOT criado pelo git pa
 // git log - mostra todos os commits feitos em ordem no formato de uma pilha (FILO)
 // git log --oneline - mostra todos os commits feitos em uma linha por commit (eles reduzem o numero do commit, que é em hexadecimal)
 
+
+//Pulando o staging (exceção) 
+	git commit -am "<mensagem>" ou git commit -a -m "<mensagem>"
+
