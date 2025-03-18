@@ -37,3 +37,11 @@ Neste passo (após dar o commit) eu já posso usar o SNAPSHOT criado pelo git pa
 //Pulando o staging (exceção) 
 	git commit -am "<mensagem>" ou git commit -a -m "<mensagem>"
 
+
+//Removendo e restaurando arquivos
+//remove
+git rm <nome do arquivo>.<tipo do arquivo> - remove o arquivo
+
+//restaura
+git restore --staged <nome do arquivo>.<tipo do arquivo> - restaura da parte de staged do arquivo
+git restore <nome do arquivo>.<tipo do arquivo> - restaura o arquivo 
