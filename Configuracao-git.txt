@@ -68,8 +68,9 @@ commit (unstaged) e os arquivos posteriores continua existindo
 
 git reset --<nome do modelo> <numero do commit>
 
-//git alias
 
+
+//git alias
 git config alias.<nome que quer dar> "<comando que quer utilizar ao chamar o nome>"
 
 git config alias.log1 "log --oneline" //muda somente da minha maquina
@@ -91,3 +92,5 @@ git merge -m "<mensagem adicionada>" <branch criada>
 
 //remover branch
 git branch -d <nome da branch> - remove a branch pra sempre da lista 
+
+
